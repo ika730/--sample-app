@@ -13,6 +13,8 @@
 		062C08BF2A403F9F00D0D408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062C08BD2A403F9F00D0D408 /* Main.storyboard */; };
 		062C08C12A403FA600D0D408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062C08C02A403FA600D0D408 /* Assets.xcassets */; };
 		062C08C42A403FA600D0D408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062C08C22A403FA600D0D408 /* LaunchScreen.storyboard */; };
+		062C08CC2A40401800D0D408 /* 参照.txt in Resources */ = {isa = PBXBuildFile; fileRef = 062C08CB2A40401800D0D408 /* 参照.txt */; };
+		062C08CE2A40407B00D0D408 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062C08CD2A40407B00D0D408 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		062C08C02A403FA600D0D408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		062C08C32A403FA600D0D408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		062C08C52A403FA600D0D408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062C08CB2A40401800D0D408 /* 参照.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "参照.txt"; sourceTree = "<group>"; };
+		062C08CD2A40407B00D0D408 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				062C08B72A403F9F00D0D408 /* AppDelegate.swift */,
 				062C08B92A403F9F00D0D408 /* SceneDelegate.swift */,
 				062C08BB2A403F9F00D0D408 /* ViewController.swift */,
+				062C08CD2A40407B00D0D408 /* NextViewController.swift */,
 				062C08BD2A403F9F00D0D408 /* Main.storyboard */,
 				062C08C02A403FA600D0D408 /* Assets.xcassets */,
 				062C08C22A403FA600D0D408 /* LaunchScreen.storyboard */,
 				062C08C52A403FA600D0D408 /* Info.plist */,
+				062C08CB2A40401800D0D408 /* 参照.txt */,
 			);
 			path = "画面遷移-sample-app";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				062C08C42A403FA600D0D408 /* LaunchScreen.storyboard in Resources */,
+				062C08CC2A40401800D0D408 /* 参照.txt in Resources */,
 				062C08C12A403FA600D0D408 /* Assets.xcassets in Resources */,
 				062C08BF2A403F9F00D0D408 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				062C08BC2A403F9F00D0D408 /* ViewController.swift in Sources */,
+				062C08CE2A40407B00D0D408 /* NextViewController.swift in Sources */,
 				062C08B82A403F9F00D0D408 /* AppDelegate.swift in Sources */,
 				062C08BA2A403F9F00D0D408 /* SceneDelegate.swift in Sources */,
 			);

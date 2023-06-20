@@ -1,0 +1,7 @@
+コードを使った二つの画面遷移方法
+https://qiita.com/tosh_3/items/e99b77372d8c0f38d98b
+参照
+
+コードを使った画面遷移(2通り)
+1viewControllerとviewController同士をsegueでつなぎ、そのsegueを遷移したいタイミングで呼び出す(TypeA)
+2遷移したいviewController自体に名前、識別IDをつけて遷移したいタイミングでviewControllerそのものを呼び出す
